@@ -8,6 +8,7 @@ import { FaqSection } from "@/components/faq-section"
 import { BackgroundSection } from "@/components/background-section"
 import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import OfficeSection from "@/components/OfficeSection";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
         <ChallengeSection />
         <MeetSection />
         <FaqSection />
+        <OfficeSection />
         <BackgroundSection />
         <CtaSection />
       </main>
